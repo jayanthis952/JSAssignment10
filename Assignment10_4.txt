@@ -1,0 +1,13 @@
+a) The output of the program will be:
+Hello John
+Hello Tina
+Hello Kale
+Hello Max
+
+b) The higher order function in this example is the useFunction 
+function because it takes another function (fn) as an argument and 
+uses it to perform some operation on each element of the arr array. 
+This is the definition of a higher order function - 
+a function that takes another function as an argument or returns a function as its result. 
+In this case, the useFunction function is passing the argFn function as an argument 
+and using it to print a greeting for each name in the names array.
